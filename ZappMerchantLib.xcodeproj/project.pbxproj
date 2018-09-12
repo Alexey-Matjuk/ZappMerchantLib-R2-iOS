@@ -158,6 +158,73 @@
 		CDF165A31D2423AD00E70873 /* PBBACodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD413E071D241BD700474397 /* PBBACodeView.xib */; };
 		CDF8AE1B1D24191D0053C7A8 /* PBBAPopupHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF8AE181D24191D0053C7A8 /* PBBAPopupHeaderView.h */; };
 		CDF8AE1C1D24191D0053C7A8 /* PBBAPopupHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8AE191D24191D0053C7A8 /* PBBAPopupHeaderView.m */; };
+		EE3E777D2149D5B70085551F /* ZappMerchantLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3E777B2149D59B0085551F /* ZappMerchantLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3E777E2149D7A10085551F /* PBBAAppUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9C6FDD1D214C9D00D207EF /* PBBAAppUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3E777F2149D7A10085551F /* PBBALibraryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9C6FE11D214F7A00D207EF /* PBBALibraryUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3E77802149D7A10085551F /* PBBAUIElementAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = CDDC6E191B4AC8FE0000E10C /* PBBAUIElementAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3E77812149D7A10085551F /* PBBAAnimatable.h in Headers */ = {isa = PBXBuildFile; fileRef = CD43B70C1CFDCE3800A85880 /* PBBAAnimatable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3E77822149D7A10085551F /* UIFont+ZPMLib.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD988FB199A342E008A082A /* UIFont+ZPMLib.h */; };
+		EE3E77832149D7A10085551F /* UIView+ZPMLib.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8CCE5F1C8847BB00F27CC2 /* UIView+ZPMLib.h */; };
+		EE3E77842149D7A10085551F /* NSBundle+ZPMLib.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3A0B3E18D7659B002994E4 /* NSBundle+ZPMLib.h */; };
+		EE3E77852149D7A10085551F /* UIColor+ZPMLib.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E72FC199A546100818A7C /* UIColor+ZPMLib.h */; };
+		EE3E77862149D7A10085551F /* UIImage+ZPMLib.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D12A8319640BE30064590B /* UIImage+ZPMLib.h */; };
+		EE3E77872149D7A10085551F /* NSAttributedString+ZPMLib.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD988FE199A4A90008A082A /* NSAttributedString+ZPMLib.h */; };
+		EE3E77882149D7A10085551F /* PBBAPopupAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3F2B9C1D23FA27008A5D0D /* PBBAPopupAnimator.h */; };
+		EE3E77892149D7A10085551F /* PBBAPopupScaleAspectFitAnimationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7444F31D23FB5600768225 /* PBBAPopupScaleAspectFitAnimationContext.h */; };
+		EE3E778A2149D7A10085551F /* PBBAPopupContentViewControllerTransitionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8CCE811C889A2F00F27CC2 /* PBBAPopupContentViewControllerTransitionContext.h */; };
+		EE3E778B2149D7A10085551F /* PBBACodeInstructions.h in Headers */ = {isa = PBXBuildFile; fileRef = CDDD34621D23FC1200AE04FA /* PBBACodeInstructions.h */; };
+		EE3E778C2149D7A10085551F /* PBBAAppearanceProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4F89A21C981EEC009DE460 /* PBBAAppearanceProxy.h */; };
+		EE3E778D2149D7A10085551F /* PBBAAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7461F21D23FCE1007EB6D3 /* PBBAAppearance.h */; };
+		EE3E778E2149D7A10085551F /* PBBAButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC4374518D306E8004DBB05 /* PBBAButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3E778F2149D7A10085551F /* PBBASquiggleView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB9274C1B57AC6700A8EDFD /* PBBASquiggleView.h */; };
+		EE3E77902149D7A10085551F /* PBBAButtonTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD08D4FE1B5CEE4A00F53C4F /* PBBAButtonTitleView.h */; };
+		EE3E77912149D7A10085551F /* PBBAAutoLoadableView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD493C5D1D2418C700FC3E5A /* PBBAAutoLoadableView.h */; };
+		EE3E77922149D7A10085551F /* PBBAPopupHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF8AE181D24191D0053C7A8 /* PBBAPopupHeaderView.h */; };
+		EE3E77932149D7A10085551F /* PBBAPopupFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD660DDF1C8D8DB8000D550B /* PBBAPopupFooterView.h */; };
+		EE3E77942149D7A10085551F /* PBBACodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = C818C1D81B5653CC00A7514A /* PBBACodeView.h */; };
+		EE3E77952149D7A10085551F /* PBBACodeInstructionsView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0F4FB01D241C2D002620BF /* PBBACodeInstructionsView.h */; };
+		EE3E77962149D7A10085551F /* PBBAPopupMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD26BCB31D241D26009EDD16 /* PBBAPopupMessageView.h */; };
+		EE3E77972149D7A10085551F /* PBBAPopupButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF165A01D241D7D00E70873 /* PBBAPopupButton.h */; };
+		EE3E77982149D7A10085551F /* PBBAPopupViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8CCE4C1C88409000F27CC2 /* PBBAPopupViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3E77992149D7A10085551F /* PBBAPopupContainerController.h in Headers */ = {isa = PBXBuildFile; fileRef = CDBC35111D2424BB00B5A235 /* PBBAPopupContainerController.h */; };
+		EE3E779A2149D7A10085551F /* PBBAPopupCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3BBE9F1C90607D0096B732 /* PBBAPopupCoordinator.h */; };
+		EE3E779B2149D7A10085551F /* PBBAPopupContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9CDB251D24266D00204F72 /* PBBAPopupContentViewController.h */; };
+		EE3E779C2149D7A10085551F /* PBBAErrorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD85014B1D2426B900C06582 /* PBBAErrorViewController.h */; };
+		EE3E779D2149D7A10085551F /* PBBAMComViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2176191D24273000DA032D /* PBBAMComViewController.h */; };
+		EE3E779E2149D7A10085551F /* PBBAEComViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CDED2C8B1D24278B0004FECE /* PBBAEComViewController.h */; };
+		EE3E779F2149D7A10085551F /* ZappMerchantLib.h in Headers */ = {isa = PBXBuildFile; fileRef = A76635D4188D3AB300D6C26C /* ZappMerchantLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3E77A02149D7CA0085551F /* PBBAAppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C6FDE1D214C9D00D207EF /* PBBAAppUtils.m */; };
+		EE3E77A12149D7CA0085551F /* PBBALibraryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C6FE21D214F7A00D207EF /* PBBALibraryUtils.m */; };
+		EE3E77A22149D7CF0085551F /* UIFont+ZPMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD988FC199A342E008A082A /* UIFont+ZPMLib.m */; };
+		EE3E77A32149D7CF0085551F /* UIView+ZPMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8CCE601C8847BB00F27CC2 /* UIView+ZPMLib.m */; };
+		EE3E77A42149D7CF0085551F /* NSBundle+ZPMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3A0B3F18D7659B002994E4 /* NSBundle+ZPMLib.m */; };
+		EE3E77A52149D7CF0085551F /* UIColor+ZPMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E72FD199A546100818A7C /* UIColor+ZPMLib.m */; };
+		EE3E77A62149D7CF0085551F /* UIImage+ZPMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D12A8419640BE30064590B /* UIImage+ZPMLib.m */; };
+		EE3E77A72149D7CF0085551F /* NSAttributedString+ZPMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD988FF199A4A90008A082A /* NSAttributedString+ZPMLib.m */; };
+		EE3E77A82149D7D20085551F /* PBBAPopupAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F2B9D1D23FA27008A5D0D /* PBBAPopupAnimator.m */; };
+		EE3E77A92149D7D20085551F /* PBBAPopupScaleAspectFitAnimationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7444F41D23FB5600768225 /* PBBAPopupScaleAspectFitAnimationContext.m */; };
+		EE3E77AA2149D7D20085551F /* PBBAPopupContentViewControllerTransitionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8CCE821C889A2F00F27CC2 /* PBBAPopupContentViewControllerTransitionContext.m */; };
+		EE3E77AB2149D7D60085551F /* PBBACodeInstructions.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD34631D23FC1200AE04FA /* PBBACodeInstructions.m */; };
+		EE3E77AC2149D7D60085551F /* PBBAAppearanceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F89A31C981EEC009DE460 /* PBBAAppearanceProxy.m */; };
+		EE3E77AD2149D7D60085551F /* PBBAAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD2D5871C999265005B097A /* PBBAAppearance.m */; };
+		EE3E77AE2149D7D90085551F /* PBBAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC4374618D306E8004DBB05 /* PBBAButton.m */; };
+		EE3E77AF2149D7D90085551F /* PBBASquiggleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB9274D1B57AC6700A8EDFD /* PBBASquiggleView.m */; };
+		EE3E77B02149D7D90085551F /* PBBAButtonTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD08D4FF1B5CEE4A00F53C4F /* PBBAButtonTitleView.m */; };
+		EE3E77B12149D7DD0085551F /* PBBAAutoLoadableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD493C5E1D2418C700FC3E5A /* PBBAAutoLoadableView.m */; };
+		EE3E77B22149D7DD0085551F /* PBBAPopupHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8AE191D24191D0053C7A8 /* PBBAPopupHeaderView.m */; };
+		EE3E77B32149D7DD0085551F /* PBBAPopupFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD460B821D241B5900E61803 /* PBBAPopupFooterView.m */; };
+		EE3E77B42149D7DD0085551F /* PBBACodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C818C1D91B5653CC00A7514A /* PBBACodeView.m */; };
+		EE3E77B52149D7DD0085551F /* PBBACodeInstructionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BAE611B5E39C300E441B2 /* PBBACodeInstructionsView.m */; };
+		EE3E77B62149D7DD0085551F /* PBBAPopupMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD426BA61C8F24D3001A2843 /* PBBAPopupMessageView.m */; };
+		EE3E77B72149D7DD0085551F /* PBBAPopupButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C88DA6D31B70C5E600EAFC81 /* PBBAPopupButton.m */; };
+		EE3E77B82149D7E10085551F /* PBBAPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8CCE4D1C88409000F27CC2 /* PBBAPopupViewController.m */; };
+		EE3E77B92149D7E10085551F /* PBBAPopupContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBC35121D2424BB00B5A235 /* PBBAPopupContainerController.m */; };
+		EE3E77BA2149D7E10085551F /* PBBAPopupCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3BBEA01C90607D0096B732 /* PBBAPopupCoordinator.m */; };
+		EE3E77BB2149D7E50085551F /* PBBAPopupContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9CDB261D24266D00204F72 /* PBBAPopupContentViewController.m */; };
+		EE3E77BC2149D7E50085551F /* PBBAErrorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85014C1D2426B900C06582 /* PBBAErrorViewController.m */; };
+		EE3E77BD2149D7E50085551F /* PBBAMComViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21761A1D24273000DA032D /* PBBAMComViewController.m */; };
+		EE3E77BE2149D7E50085551F /* PBBAEComViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD475681C8F2A5600E3D92A /* PBBAEComViewController.m */; };
+		EE3E77C12149D90F0085551F /* ZappMerchantLibResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDC4373918D305F5004DBB05 /* ZappMerchantLibResources.bundle */; };
 		F14E72FE199A546100818A7C /* UIColor+ZPMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E72FD199A546100818A7C /* UIColor+ZPMLib.m */; };
 /* End PBXBuildFile section */
 
@@ -196,6 +263,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = A76635CB188D3AB300D6C26C;
 			remoteInfo = ZappMerchantLib;
+		};
+		EE3E77BF2149D8FF0085551F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A76635C4188D3AB300D6C26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC4373818D305F5004DBB05;
+			remoteInfo = ZappMerchantLibResources;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -297,6 +371,10 @@
 		CDF8AE181D24191D0053C7A8 /* PBBAPopupHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBBAPopupHeaderView.h; sourceTree = "<group>"; };
 		CDF8AE191D24191D0053C7A8 /* PBBAPopupHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBBAPopupHeaderView.m; sourceTree = "<group>"; };
 		CDF8AE1A1D24191D0053C7A8 /* PBBAPopupHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PBBAPopupHeaderView.xib; sourceTree = "<group>"; };
+		EE3E77712149D4830085551F /* ZappMerchantLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZappMerchantLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3E77742149D4830085551F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3E777B2149D59B0085551F /* ZappMerchantLib-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZappMerchantLib-umbrella.h"; sourceTree = "<group>"; };
+		EE3E777C2149D59B0085551F /* ZappMerchantLib.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = ZappMerchantLib.modulemap; sourceTree = "<group>"; };
 		F14E72FC199A546100818A7C /* UIColor+ZPMLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZPMLib.h"; sourceTree = "<group>"; };
 		F14E72FD199A546100818A7C /* UIColor+ZPMLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZPMLib.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -336,6 +414,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE3E776D2149D4830085551F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -366,6 +451,7 @@
 				A76635D1188D3AB300D6C26C /* ZappMerchantLib */,
 				A76635E5188D3AB300D6C26C /* ZappMerchantLibTests */,
 				CDC4373B18D305F5004DBB05 /* ZappMerchantLibResources */,
+				EE3E77722149D4830085551F /* ZappMerchantLibFramework */,
 				A76635CE188D3AB300D6C26C /* Frameworks */,
 				A76635CD188D3AB300D6C26C /* Products */,
 				61DF66CE63B7A108B224F0A8 /* Pods */,
@@ -379,6 +465,7 @@
 				A76635DC188D3AB300D6C26C /* ZappMerchantLibTests.xctest */,
 				CDC4373918D305F5004DBB05 /* ZappMerchantLibResources.bundle */,
 				CD8F887B1BB5A0A400E754B6 /* libZappMerchantLibExportHeaders.a */,
+				EE3E77712149D4830085551F /* ZappMerchantLib.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -644,6 +731,16 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		EE3E77722149D4830085551F /* ZappMerchantLibFramework */ = {
+			isa = PBXGroup;
+			children = (
+				EE3E777B2149D59B0085551F /* ZappMerchantLib-umbrella.h */,
+				EE3E777C2149D59B0085551F /* ZappMerchantLib.modulemap */,
+				EE3E77742149D4830085551F /* Info.plist */,
+			);
+			path = ZappMerchantLibFramework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -729,6 +826,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE3E776E2149D4830085551F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3E77892149D7A10085551F /* PBBAPopupScaleAspectFitAnimationContext.h in Headers */,
+				EE3E77802149D7A10085551F /* PBBAUIElementAppearance.h in Headers */,
+				EE3E778C2149D7A10085551F /* PBBAAppearanceProxy.h in Headers */,
+				EE3E77992149D7A10085551F /* PBBAPopupContainerController.h in Headers */,
+				EE3E778D2149D7A10085551F /* PBBAAppearance.h in Headers */,
+				EE3E77972149D7A10085551F /* PBBAPopupButton.h in Headers */,
+				EE3E779B2149D7A10085551F /* PBBAPopupContentViewController.h in Headers */,
+				EE3E77882149D7A10085551F /* PBBAPopupAnimator.h in Headers */,
+				EE3E77902149D7A10085551F /* PBBAButtonTitleView.h in Headers */,
+				EE3E77952149D7A10085551F /* PBBACodeInstructionsView.h in Headers */,
+				EE3E778F2149D7A10085551F /* PBBASquiggleView.h in Headers */,
+				EE3E777F2149D7A10085551F /* PBBALibraryUtils.h in Headers */,
+				EE3E779A2149D7A10085551F /* PBBAPopupCoordinator.h in Headers */,
+				EE3E779C2149D7A10085551F /* PBBAErrorViewController.h in Headers */,
+				EE3E779D2149D7A10085551F /* PBBAMComViewController.h in Headers */,
+				EE3E777D2149D5B70085551F /* ZappMerchantLib-umbrella.h in Headers */,
+				EE3E77982149D7A10085551F /* PBBAPopupViewController.h in Headers */,
+				EE3E77842149D7A10085551F /* NSBundle+ZPMLib.h in Headers */,
+				EE3E77822149D7A10085551F /* UIFont+ZPMLib.h in Headers */,
+				EE3E77812149D7A10085551F /* PBBAAnimatable.h in Headers */,
+				EE3E77932149D7A10085551F /* PBBAPopupFooterView.h in Headers */,
+				EE3E77922149D7A10085551F /* PBBAPopupHeaderView.h in Headers */,
+				EE3E77862149D7A10085551F /* UIImage+ZPMLib.h in Headers */,
+				EE3E77942149D7A10085551F /* PBBACodeView.h in Headers */,
+				EE3E779F2149D7A10085551F /* ZappMerchantLib.h in Headers */,
+				EE3E77832149D7A10085551F /* UIView+ZPMLib.h in Headers */,
+				EE3E77872149D7A10085551F /* NSAttributedString+ZPMLib.h in Headers */,
+				EE3E778E2149D7A10085551F /* PBBAButton.h in Headers */,
+				EE3E778B2149D7A10085551F /* PBBACodeInstructions.h in Headers */,
+				EE3E77962149D7A10085551F /* PBBAPopupMessageView.h in Headers */,
+				EE3E777E2149D7A10085551F /* PBBAAppUtils.h in Headers */,
+				EE3E778A2149D7A10085551F /* PBBAPopupContentViewControllerTransitionContext.h in Headers */,
+				EE3E77852149D7A10085551F /* UIColor+ZPMLib.h in Headers */,
+				EE3E779E2149D7A10085551F /* PBBAEComViewController.h in Headers */,
+				EE3E77912149D7A10085551F /* PBBAAutoLoadableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -805,6 +944,25 @@
 			productReference = CDC4373918D305F5004DBB05 /* ZappMerchantLibResources.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		EE3E77702149D4830085551F /* ZappMerchantLibFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3E77792149D4830085551F /* Build configuration list for PBXNativeTarget "ZappMerchantLibFramework" */;
+			buildPhases = (
+				EE3E776C2149D4830085551F /* Sources */,
+				EE3E776D2149D4830085551F /* Frameworks */,
+				EE3E776E2149D4830085551F /* Headers */,
+				EE3E776F2149D4830085551F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3E77C02149D8FF0085551F /* PBXTargetDependency */,
+			);
+			name = ZappMerchantLibFramework;
+			productName = ZappMerchantFramework;
+			productReference = EE3E77712149D4830085551F /* ZappMerchantLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -823,6 +981,10 @@
 					};
 					CD8F887A1BB5A0A400E754B6 = {
 						CreatedOnToolsVersion = 6.4;
+					};
+					EE3E77702149D4830085551F = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -845,6 +1007,7 @@
 				A2DD809C18EEE76300288F11 /* ZappMerchantSDK */,
 				A76635DB188D3AB300D6C26C /* ZappMerchantLibTests */,
 				CDC4373818D305F5004DBB05 /* ZappMerchantLibResources */,
+				EE3E77702149D4830085551F /* ZappMerchantLibFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -879,6 +1042,14 @@
 				C81BAE641B5E39DF00E441B2 /* PBBACodeInstructionsView.xib in Resources */,
 				C875F5DB1B623D2000684494 /* SourceSansPro-Light.otf in Resources */,
 				CD426BAA1C8F24E6001A2843 /* PBBAPopupMessageView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3E776F2149D4830085551F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3E77C12149D90F0085551F /* ZappMerchantLibResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1031,6 +1202,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE3E776C2149D4830085551F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3E77BB2149D7E50085551F /* PBBAPopupContentViewController.m in Sources */,
+				EE3E77A32149D7CF0085551F /* UIView+ZPMLib.m in Sources */,
+				EE3E77B92149D7E10085551F /* PBBAPopupContainerController.m in Sources */,
+				EE3E77BD2149D7E50085551F /* PBBAMComViewController.m in Sources */,
+				EE3E77B72149D7DD0085551F /* PBBAPopupButton.m in Sources */,
+				EE3E77A42149D7CF0085551F /* NSBundle+ZPMLib.m in Sources */,
+				EE3E77B22149D7DD0085551F /* PBBAPopupHeaderView.m in Sources */,
+				EE3E77B52149D7DD0085551F /* PBBACodeInstructionsView.m in Sources */,
+				EE3E77AE2149D7D90085551F /* PBBAButton.m in Sources */,
+				EE3E77BE2149D7E50085551F /* PBBAEComViewController.m in Sources */,
+				EE3E77BC2149D7E50085551F /* PBBAErrorViewController.m in Sources */,
+				EE3E77A22149D7CF0085551F /* UIFont+ZPMLib.m in Sources */,
+				EE3E77A92149D7D20085551F /* PBBAPopupScaleAspectFitAnimationContext.m in Sources */,
+				EE3E77AC2149D7D60085551F /* PBBAAppearanceProxy.m in Sources */,
+				EE3E77A62149D7CF0085551F /* UIImage+ZPMLib.m in Sources */,
+				EE3E77A52149D7CF0085551F /* UIColor+ZPMLib.m in Sources */,
+				EE3E77AB2149D7D60085551F /* PBBACodeInstructions.m in Sources */,
+				EE3E77A12149D7CA0085551F /* PBBALibraryUtils.m in Sources */,
+				EE3E77AA2149D7D20085551F /* PBBAPopupContentViewControllerTransitionContext.m in Sources */,
+				EE3E77B02149D7D90085551F /* PBBAButtonTitleView.m in Sources */,
+				EE3E77B42149D7DD0085551F /* PBBACodeView.m in Sources */,
+				EE3E77B12149D7DD0085551F /* PBBAAutoLoadableView.m in Sources */,
+				EE3E77B82149D7E10085551F /* PBBAPopupViewController.m in Sources */,
+				EE3E77AD2149D7D60085551F /* PBBAAppearance.m in Sources */,
+				EE3E77A02149D7CA0085551F /* PBBAAppUtils.m in Sources */,
+				EE3E77A82149D7D20085551F /* PBBAPopupAnimator.m in Sources */,
+				EE3E77AF2149D7D90085551F /* PBBASquiggleView.m in Sources */,
+				EE3E77A72149D7CF0085551F /* NSAttributedString+ZPMLib.m in Sources */,
+				EE3E77BA2149D7E10085551F /* PBBAPopupCoordinator.m in Sources */,
+				EE3E77B62149D7DD0085551F /* PBBAPopupMessageView.m in Sources */,
+				EE3E77B32149D7DD0085551F /* PBBAPopupFooterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1058,6 +1267,11 @@
 			isa = PBXTargetDependency;
 			target = A76635CB188D3AB300D6C26C /* ZappMerchantLib */;
 			targetProxy = CDBF18C91CFF0D930002883C /* PBXContainerItemProxy */;
+		};
+		EE3E77C02149D8FF0085551F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC4373818D305F5004DBB05 /* ZappMerchantLibResources */;
+			targetProxy = EE3E77BF2149D8FF0085551F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1551,6 +1765,112 @@
 			};
 			name = Release;
 		};
+		EE3E77762149D4830085551F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = ZappMerchantLibFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zapp.ZappMerchantLib;
+				PRODUCT_NAME = ZappMerchantLib;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE3E77772149D4830085551F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = ZappMerchantLibFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zapp.ZappMerchantLib;
+				PRODUCT_NAME = ZappMerchantLib;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE3E77782149D4830085551F /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = ZappMerchantLibFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zapp.ZappMerchantLib;
+				PRODUCT_NAME = ZappMerchantLib;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Development;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1620,6 +1940,16 @@
 				CDC4374318D305F5004DBB05 /* Debug */,
 				CDC4374418D305F5004DBB05 /* Release */,
 				CDA96C461C4E95C5002C64E0 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3E77792149D4830085551F /* Build configuration list for PBXNativeTarget "ZappMerchantLibFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3E77762149D4830085551F /* Debug */,
+				EE3E77772149D4830085551F /* Release */,
+				EE3E77782149D4830085551F /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

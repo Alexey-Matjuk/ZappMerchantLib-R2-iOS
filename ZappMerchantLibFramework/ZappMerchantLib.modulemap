@@ -1,0 +1,6 @@
+framework module ZappMerchantLib {
+    umbrella header "ZappMerchantLib-umbrella.h"
+
+    export *
+    module * { export * }
+}
